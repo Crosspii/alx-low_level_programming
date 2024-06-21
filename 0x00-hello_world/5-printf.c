@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - prints the text
+ * main - prints the text and returns void
  *
- * Return - always 0
+ * Return: always 0
  */
 int main(void)
 {
