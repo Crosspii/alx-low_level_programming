@@ -1,11 +1,12 @@
 #include <stdio.h>
 /*
- * main - prints all the combintions of a single-digit number
+ * main - Entry point
  * Return: always 0
  */
 int main(void)
 {
 	int i;
+
 	for (i = 0; i < 10; i++)
 	{
 		putchar(i + '0');
