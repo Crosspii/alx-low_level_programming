@@ -8,8 +8,8 @@
 
 void jack_bauer(void)
 {
-	int i,j;
-	char htens,hunits,mtens,munits;
+	int i, j;
+	char htens, hunits, mtens, munits;
 
 	for (i = 0; i < 24; i++)
 	{
