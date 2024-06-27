@@ -16,7 +16,6 @@ void times_table(void)
 			if (result < 10)
 			{
 				putchar(result + '0');
-				putchar(' ');
 			}
 			else
 			{
@@ -27,6 +26,11 @@ void times_table(void)
 			if (j < 9)
 			{
 				putchar(',');
+				putchar(' ');
+			}
+
+			if (result < 10)
+			{
 				putchar(' ');
 			}
 		}
