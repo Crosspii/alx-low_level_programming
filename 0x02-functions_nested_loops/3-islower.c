@@ -6,7 +6,7 @@
  * Return: 1 for true 0 for otherwise
  */
 
-int _islower(int c);
+int _islower(int c)
 {
 	if (c >= 'a' && c <= 'Z')
 	{
