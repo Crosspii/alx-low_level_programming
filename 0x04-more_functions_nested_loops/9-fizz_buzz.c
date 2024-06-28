@@ -1,6 +1,8 @@
 #include "main.h"
 #include <stdio.h>
 
+void fizzbuzz(void);
+
 /**
  * fizzbuzz - prints numbers from 1 to 100 replacing multiples of 3 with "fizz"
  * and multiples of 5 with "buzz" and multiples of both with "fizzbuzz"
