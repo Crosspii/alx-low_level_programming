@@ -24,13 +24,14 @@ int _strlen(char *s)
  */
 void puts_half(char *str)
 {
+	int i;
 	int length = _strlen(str);
 	int half_length = length / 2;
 	int start_index = (length % 2 == 0) ? 0 : half_length;
 
-	for (int i = start_index; i < length; i++)
+	for (i = start_index; i < length; i++)
 	{
-		putchar(s[i]);
+		putchar(str[i]);
 	}
 	putchar('\n');
 }

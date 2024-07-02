@@ -21,7 +21,7 @@ int _strlen(char *s)
 
 /**
  * puts2 - prints every other chracter of a string
- * @s: pointer to the string
+ * @str: pointer to the string
  */
 void puts2(char *str)
 {
