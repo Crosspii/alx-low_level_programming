@@ -33,6 +33,11 @@ char *cap_string(char *s)
 				}
 			}
 		}
+		if (s[i] == '\'')
+		{
+			capitalize_next = true;
+		}
+
 		i++;
 	}
 
