@@ -42,7 +42,7 @@ static char *_strcpy(char *dest, const char *src)
 dog_t *new_dog(char *name, float age, char *owner)
 {
 	dog_t *d;
-	char *name_ln, *owner_ln;
+	int name_ln, owner_ln;
 
 	if (name == NULL || owner == NULL)
 	{
@@ -58,13 +58,13 @@ dog_t *new_dog(char *name, float age, char *owner)
 	name_ln = _strlen(name);
 	owner_ln = _strlen(owner);
 
-	d->name = (char *)malloc(name_len + 1);
+	d->name = (char *)malloc(name_ln + 1);
 	if (d->name == NULL)
 	{
 		return (NULL);
 	}
 
-	d->owner = (char *)malloc(owner_len + 1);
+	d->owner = (char *)malloc(owner_ln + 1);
 	if (d->owner == NULL)
 	{
 		return (NULL);
